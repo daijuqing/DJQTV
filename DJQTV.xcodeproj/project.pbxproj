@@ -1,0 +1,637 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE67304F1EC01FB500837CAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE67304E1EC01FB500837CAD /* AppDelegate.swift */; };
+		FE6730541EC01FB500837CAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE6730521EC01FB500837CAD /* Main.storyboard */; };
+		FE6730561EC01FB500837CAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE6730551EC01FB500837CAD /* Assets.xcassets */; };
+		FE6730591EC01FB500837CAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE6730571EC01FB500837CAD /* LaunchScreen.storyboard */; };
+		FE6730641EC01FB600837CAD /* DJQTVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6730631EC01FB600837CAD /* DJQTVTests.swift */; };
+		FE67306F1EC01FB600837CAD /* DJQTVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE67306E1EC01FB600837CAD /* DJQTVUITests.swift */; };
+		FE6730841EC04FD000837CAD /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE6730831EC04FD000837CAD /* Home.storyboard */; };
+		FE6730871EC0514D00837CAD /* Rank.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE6730851EC0514D00837CAD /* Rank.storyboard */; };
+		FE6730891EC0516A00837CAD /* Discover.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE6730881EC0516A00837CAD /* Discover.storyboard */; };
+		FE67308C1EC0517D00837CAD /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE67308A1EC0517D00837CAD /* Profile.storyboard */; };
+		FE67308E1EC0521E00837CAD /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE67308D1EC0521E00837CAD /* MainViewController.swift */; };
+		FE6730901EC0543300837CAD /* DJQNavgationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE67308F1EC0543300837CAD /* DJQNavgationViewController.swift */; };
+		FE6730921EC05E6100837CAD /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6730911EC05E6100837CAD /* HomeViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FE6730601EC01FB600837CAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE6730431EC01FB500837CAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE67304A1EC01FB500837CAD;
+			remoteInfo = DJQTV;
+		};
+		FE67306B1EC01FB600837CAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE6730431EC01FB500837CAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE67304A1EC01FB500837CAD;
+			remoteInfo = DJQTV;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FE67304B1EC01FB500837CAD /* DJQTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DJQTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE67304E1EC01FB500837CAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FE6730531EC01FB500837CAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FE6730551EC01FB500837CAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE6730581EC01FB500837CAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FE67305A1EC01FB500837CAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE67305F1EC01FB600837CAD /* DJQTVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DJQTVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE6730631EC01FB600837CAD /* DJQTVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DJQTVTests.swift; sourceTree = "<group>"; };
+		FE6730651EC01FB600837CAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE67306A1EC01FB600837CAD /* DJQTVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DJQTVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE67306E1EC01FB600837CAD /* DJQTVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DJQTVUITests.swift; sourceTree = "<group>"; };
+		FE6730701EC01FB600837CAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE6730831EC04FD000837CAD /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		FE6730861EC0514D00837CAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Rank.storyboard; sourceTree = "<group>"; };
+		FE6730881EC0516A00837CAD /* Discover.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Discover.storyboard; path = ../../Discover.storyboard; sourceTree = "<group>"; };
+		FE67308B1EC0517D00837CAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Profile.storyboard; sourceTree = "<group>"; };
+		FE67308D1EC0521E00837CAD /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		FE67308F1EC0543300837CAD /* DJQNavgationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DJQNavgationViewController.swift; sourceTree = "<group>"; };
+		FE6730911EC05E6100837CAD /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE6730481EC01FB500837CAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE67305C1EC01FB600837CAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE6730671EC01FB600837CAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE6730421EC01FB500837CAD = {
+			isa = PBXGroup;
+			children = (
+				FE67304D1EC01FB500837CAD /* DJQTV */,
+				FE6730621EC01FB600837CAD /* DJQTVTests */,
+				FE67306D1EC01FB600837CAD /* DJQTVUITests */,
+				FE67304C1EC01FB500837CAD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE67304C1EC01FB500837CAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE67304B1EC01FB500837CAD /* DJQTV.app */,
+				FE67305F1EC01FB600837CAD /* DJQTVTests.xctest */,
+				FE67306A1EC01FB600837CAD /* DJQTVUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE67304D1EC01FB500837CAD /* DJQTV */ = {
+			isa = PBXGroup;
+			children = (
+				FE67307C1EC0236000837CAD /* Classes */,
+				FE67304E1EC01FB500837CAD /* AppDelegate.swift */,
+				FE6730521EC01FB500837CAD /* Main.storyboard */,
+				FE6730551EC01FB500837CAD /* Assets.xcassets */,
+				FE6730571EC01FB500837CAD /* LaunchScreen.storyboard */,
+				FE67305A1EC01FB500837CAD /* Info.plist */,
+			);
+			path = DJQTV;
+			sourceTree = "<group>";
+		};
+		FE6730621EC01FB600837CAD /* DJQTVTests */ = {
+			isa = PBXGroup;
+			children = (
+				FE6730631EC01FB600837CAD /* DJQTVTests.swift */,
+				FE6730651EC01FB600837CAD /* Info.plist */,
+			);
+			path = DJQTVTests;
+			sourceTree = "<group>";
+		};
+		FE67306D1EC01FB600837CAD /* DJQTVUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FE67306E1EC01FB600837CAD /* DJQTVUITests.swift */,
+				FE6730701EC01FB600837CAD /* Info.plist */,
+			);
+			path = DJQTVUITests;
+			sourceTree = "<group>";
+		};
+		FE67307C1EC0236000837CAD /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FE67307D1EC0236000837CAD /* Base */,
+				FE6730801EC0236000837CAD /* Main */,
+				FE67307F1EC0236000837CAD /* Home */,
+				FE6730821EC0236000837CAD /* Rank */,
+				FE67307E1EC0236000837CAD /* Discover */,
+				FE6730811EC0236000837CAD /* Profile */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		FE67307D1EC0236000837CAD /* Base */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		FE67307E1EC0236000837CAD /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				FE6730881EC0516A00837CAD /* Discover.storyboard */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		FE67307F1EC0236000837CAD /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				FE6730831EC04FD000837CAD /* Home.storyboard */,
+				FE6730911EC05E6100837CAD /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		FE6730801EC0236000837CAD /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				FE67308D1EC0521E00837CAD /* MainViewController.swift */,
+				FE67308F1EC0543300837CAD /* DJQNavgationViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		FE6730811EC0236000837CAD /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				FE67308A1EC0517D00837CAD /* Profile.storyboard */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		FE6730821EC0236000837CAD /* Rank */ = {
+			isa = PBXGroup;
+			children = (
+				FE6730851EC0514D00837CAD /* Rank.storyboard */,
+			);
+			path = Rank;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE67304A1EC01FB500837CAD /* DJQTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE6730731EC01FB600837CAD /* Build configuration list for PBXNativeTarget "DJQTV" */;
+			buildPhases = (
+				FE6730471EC01FB500837CAD /* Sources */,
+				FE6730481EC01FB500837CAD /* Frameworks */,
+				FE6730491EC01FB500837CAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DJQTV;
+			productName = DJQTV;
+			productReference = FE67304B1EC01FB500837CAD /* DJQTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FE67305E1EC01FB600837CAD /* DJQTVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE6730761EC01FB600837CAD /* Build configuration list for PBXNativeTarget "DJQTVTests" */;
+			buildPhases = (
+				FE67305B1EC01FB600837CAD /* Sources */,
+				FE67305C1EC01FB600837CAD /* Frameworks */,
+				FE67305D1EC01FB600837CAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE6730611EC01FB600837CAD /* PBXTargetDependency */,
+			);
+			name = DJQTVTests;
+			productName = DJQTVTests;
+			productReference = FE67305F1EC01FB600837CAD /* DJQTVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FE6730691EC01FB600837CAD /* DJQTVUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE6730791EC01FB600837CAD /* Build configuration list for PBXNativeTarget "DJQTVUITests" */;
+			buildPhases = (
+				FE6730661EC01FB600837CAD /* Sources */,
+				FE6730671EC01FB600837CAD /* Frameworks */,
+				FE6730681EC01FB600837CAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE67306C1EC01FB600837CAD /* PBXTargetDependency */,
+			);
+			name = DJQTVUITests;
+			productName = DJQTVUITests;
+			productReference = FE67306A1EC01FB600837CAD /* DJQTVUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE6730431EC01FB500837CAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = daijuqing;
+				TargetAttributes = {
+					FE67304A1EC01FB500837CAD = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = CP9Q7745AA;
+						ProvisioningStyle = Automatic;
+					};
+					FE67305E1EC01FB600837CAD = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = CP9Q7745AA;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FE67304A1EC01FB500837CAD;
+					};
+					FE6730691EC01FB600837CAD = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = CP9Q7745AA;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FE67304A1EC01FB500837CAD;
+					};
+				};
+			};
+			buildConfigurationList = FE6730461EC01FB500837CAD /* Build configuration list for PBXProject "DJQTV" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE6730421EC01FB500837CAD;
+			productRefGroup = FE67304C1EC01FB500837CAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE67304A1EC01FB500837CAD /* DJQTV */,
+				FE67305E1EC01FB600837CAD /* DJQTVTests */,
+				FE6730691EC01FB600837CAD /* DJQTVUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE6730491EC01FB500837CAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE6730871EC0514D00837CAD /* Rank.storyboard in Resources */,
+				FE6730591EC01FB500837CAD /* LaunchScreen.storyboard in Resources */,
+				FE6730561EC01FB500837CAD /* Assets.xcassets in Resources */,
+				FE6730541EC01FB500837CAD /* Main.storyboard in Resources */,
+				FE6730841EC04FD000837CAD /* Home.storyboard in Resources */,
+				FE67308C1EC0517D00837CAD /* Profile.storyboard in Resources */,
+				FE6730891EC0516A00837CAD /* Discover.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE67305D1EC01FB600837CAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE6730681EC01FB600837CAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE6730471EC01FB500837CAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE6730901EC0543300837CAD /* DJQNavgationViewController.swift in Sources */,
+				FE67308E1EC0521E00837CAD /* MainViewController.swift in Sources */,
+				FE67304F1EC01FB500837CAD /* AppDelegate.swift in Sources */,
+				FE6730921EC05E6100837CAD /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE67305B1EC01FB600837CAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE6730641EC01FB600837CAD /* DJQTVTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE6730661EC01FB600837CAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE67306F1EC01FB600837CAD /* DJQTVUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FE6730611EC01FB600837CAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE67304A1EC01FB500837CAD /* DJQTV */;
+			targetProxy = FE6730601EC01FB600837CAD /* PBXContainerItemProxy */;
+		};
+		FE67306C1EC01FB600837CAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE67304A1EC01FB500837CAD /* DJQTV */;
+			targetProxy = FE67306B1EC01FB600837CAD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FE6730521EC01FB500837CAD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE6730531EC01FB500837CAD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FE6730571EC01FB500837CAD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE6730581EC01FB500837CAD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		FE6730851EC0514D00837CAD /* Rank.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE6730861EC0514D00837CAD /* Base */,
+			);
+			name = Rank.storyboard;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		FE67308A1EC0517D00837CAD /* Profile.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE67308B1EC0517D00837CAD /* Base */,
+			);
+			name = Profile.storyboard;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE6730711EC01FB600837CAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FE6730721EC01FB600837CAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE6730741EC01FB600837CAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CP9Q7745AA;
+				INFOPLIST_FILE = DJQTV/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.daijuqing.DJQTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FE6730751EC01FB600837CAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CP9Q7745AA;
+				INFOPLIST_FILE = DJQTV/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.daijuqing.DJQTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		FE6730771EC01FB600837CAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = CP9Q7745AA;
+				INFOPLIST_FILE = DJQTVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.daijuqing.DJQTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DJQTV.app/DJQTV";
+			};
+			name = Debug;
+		};
+		FE6730781EC01FB600837CAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = CP9Q7745AA;
+				INFOPLIST_FILE = DJQTVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.daijuqing.DJQTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DJQTV.app/DJQTV";
+			};
+			name = Release;
+		};
+		FE67307A1EC01FB600837CAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = CP9Q7745AA;
+				INFOPLIST_FILE = DJQTVUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.daijuqing.DJQTVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = DJQTV;
+			};
+			name = Debug;
+		};
+		FE67307B1EC01FB600837CAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = CP9Q7745AA;
+				INFOPLIST_FILE = DJQTVUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.daijuqing.DJQTVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = DJQTV;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE6730461EC01FB500837CAD /* Build configuration list for PBXProject "DJQTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE6730711EC01FB600837CAD /* Debug */,
+				FE6730721EC01FB600837CAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE6730731EC01FB600837CAD /* Build configuration list for PBXNativeTarget "DJQTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE6730741EC01FB600837CAD /* Debug */,
+				FE6730751EC01FB600837CAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FE6730761EC01FB600837CAD /* Build configuration list for PBXNativeTarget "DJQTVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE6730771EC01FB600837CAD /* Debug */,
+				FE6730781EC01FB600837CAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FE6730791EC01FB600837CAD /* Build configuration list for PBXNativeTarget "DJQTVUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE67307A1EC01FB600837CAD /* Debug */,
+				FE67307B1EC01FB600837CAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE6730431EC01FB500837CAD /* Project object */;
+}
